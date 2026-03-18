@@ -1,6 +1,6 @@
-.head, ul {
+.head, ul, .Temp-logo {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .head li, a {
@@ -8,6 +8,25 @@
     list-style-type: none;
 }
 
-.top-con {
+.top-con, .awesome-website, #thunder {
     display: flex;
+}
+
+.awesome-website {
+    flex-flow: column wrap;
+}
+
+.mid-con{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.bottom-con {
+    display: flex;
+    flex-flow: wrap;
+}
+
+#thunder {
+    justify-content: flex-end;
 }
