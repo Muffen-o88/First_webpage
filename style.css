@@ -1,0 +1,13 @@
+.head, ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.head li, a {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.top-con {
+    display: flex;
+}
