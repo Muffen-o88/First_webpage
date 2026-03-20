@@ -2,31 +2,40 @@
     display: flex;
     justify-content: space-between;
 }
-
 .head li, a {
     text-decoration: none;
     list-style-type: none;
 }
-
-.top-con, .awesome-website, #thunder {
+body .top-con, .awesome-website, #thunder, .sub-con, .footer {
     display: flex;
 }
-
 .awesome-website {
     flex-flow: column wrap;
 }
-
+.awesome-website button, .sub-con button {
+    max-width: 70px;
+}
 .mid-con{
     display: flex;
     flex-flow: column;
     align-items: center;
 }
-
 .bottom-con {
     display: flex;
-    flex-flow: wrap;
+    flex-flow:  column wrap;
+}
+.inspirational-quote {
+    max-width: ;
+}
+#thunder {
+    justify-content: center;
+}
+.sub-con {
+   flex-flow: row wrap; 
+   justify-content: center;
 }
 
-#thunder {
-    justify-content: flex-end;
+.footer {
+   align-self: flex-end;
+   justify-content: center;
 }
