@@ -1,10 +1,25 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+button {
+    color: white;
+    background-color: aquamarine;
+    border: 4px unset;
+}
 .head, ul, .Temp-logo {
     display: flex;
     justify-content: space-between;
+    gap: 10px;
+    color: white;
 }
-.head li, a {
+.head li, .head a {
     text-decoration: none;
     list-style-type: none;
+    color: rgba(255, 255, 255, 0.594);
+}
+.head, .top-con {
+    background-color: hsl(197, 34%, 17%);
+    color:white;
 }
 body .top-con, .awesome-website, #thunder, .sub-con, .footer {
     display: flex;
