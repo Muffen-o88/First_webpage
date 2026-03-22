@@ -21,7 +21,10 @@ button {
     background-color: hsl(197, 34%, 17%);
     color:white;
 }
-body .top-con, .awesome-website, #thunder, .sub-con, .footer {
+.Img-holder, .Inspirational_quote {
+    background-color: rgba(255, 255, 255, 0.594);
+}
+body .top-con, .awesome-website, #thunder, .sub-con, .footer, .woobli-ilustration {
     display: flex;
 }
 .awesome-website {
@@ -34,6 +37,9 @@ body .top-con, .awesome-website, #thunder, .sub-con, .footer {
     display: flex;
     flex-flow: column;
     align-items: center;
+}
+#woobli {
+    border: solid 3px blue;
 }
 .bottom-con {
     display: flex;
