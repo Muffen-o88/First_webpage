@@ -1,11 +1,12 @@
 *{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif 
 }
 button {
     color: white;
-    background-color: aquamarine;
+    background-color: #;
     border: 4px unset;
 }
+
 .head, ul, .Temp-logo {
     display: flex;
     justify-content: space-between;
@@ -18,8 +19,12 @@ button {
     color: rgba(255, 255, 255, 0.594);
 }
 .head, .top-con {
-    background-color: hsl(197, 34%, 17%);
+    background-color: #1f2937;
     color:white;
+}
+#awesome {
+    font-size: 48px;
+    font-weight: 900;
 }
 .Img-holder, .Inspirational_quote {
     background-color: rgba(255, 255, 255, 0.594);
