@@ -3,10 +3,16 @@
 }
 button {
     color: white;
-    background-color: #;
+    background-color: #3882F6;
     border: 4px unset;
 }
-
+.hero{
+    padding: 30px;
+}
+.Temp-logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
 .head, ul, .Temp-logo {
     display: flex;
     justify-content: space-between;
@@ -25,6 +31,11 @@ button {
 #awesome {
     font-size: 48px;
     font-weight: 900;
+    color: #F9FAF8;
+}
+.top-con div{
+    font-size: 18px;
+    color: #E5E7EB;
 }
 .Img-holder, .Inspirational_quote {
     background-color: rgba(255, 255, 255, 0.594);
