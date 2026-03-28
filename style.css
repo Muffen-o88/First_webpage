@@ -1,17 +1,27 @@
 *{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif 
 }
+body {
+    display: flex;
+    flex-flow: row wrap;
+}
 button {
     color: white;
     background-color: #3882F6;
-    border: 4px unset;
+    border: none;
+    outline: ;
 }
 .hero{
-    padding: 30px;
+    flex: 1 1 auto;
+}
+.top-con{
+    justify-content: center;
+    align-items: center;
 }
 .Temp-logo{
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: 700;
 }
 .head, ul, .Temp-logo {
     display: flex;
@@ -28,10 +38,19 @@ button {
     background-color: #1f2937;
     color:white;
 }
+.awesome-website{
+    flex-flow: row wrap;
+    flex: 1 1 525px;
+}
 #awesome {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+
+}
+#place-holder{
+    background-color: #c0c1c3ba;
+    flex: 1 1 auto;
 }
 .top-con div{
     font-size: 18px;
@@ -40,7 +59,7 @@ button {
 .Img-holder, .Inspirational_quote {
     background-color: rgba(255, 255, 255, 0.594);
 }
-body .top-con, .awesome-website, #thunder, .sub-con, .footer, .woobli-ilustration {
+body .top-con, .awesome-website, #thunder, .sub-con, .footer, .woobli-ilustration{
     display: flex;
 }
 .awesome-website {
@@ -73,6 +92,9 @@ body .top-con, .awesome-website, #thunder, .sub-con, .footer, .woobli-ilustratio
 }
 
 .footer {
-   align-self: flex-end;
+   align-self: center;
    justify-content: center;
+   background-color: #1f2937;
+   color: white;
+   flex: 1;
 }
