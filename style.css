@@ -7,6 +7,9 @@ body {
     background-color: ;
     margin: 0px;
 }
+body .top-con, .awesome-website, #thunder, .sub-con, .footer, .woobli-ilustration{
+    display: flex;
+}
 button {
     color: white;
     background-color: #3882F6;
@@ -15,16 +18,8 @@ button {
     height: 30px;
     width: 100px;
 }
-.hero{
-    flex: 1 1 auto;
-    align-content: space-between;
-    margin: 0px;
-    background-color: #1f2937;
-    padding: 100px;
-}
-.top-con{
-    justify-content: center;
-    align-items: center;
+.awesome-website button, .sub-con button {
+    max-width: 70px;
 }
 .Temp-logo{
     font-size: 24px;
@@ -46,9 +41,19 @@ button {
     background-color: #1f2937;
     color:white;
 }
+.hero{
+    align-content: space-around;
+    margin: 0px;
+    background-color: #1f2937;
+    height: 500px;
+}
+.top-con{
+    justify-content: center;
+    align-items: center;
+}
 .awesome-website{
     flex-flow: row wrap;
-    flex: 1 1 auto;
+    flex: 0 1 50%;
 }
 #awesome {
     font-size: 48px;
@@ -58,8 +63,8 @@ button {
 }
 #place-holder{
     background-color: #c0c1c3ba;
-    flex: 1 0 525px;
-    min-height: 150px;
+    flex: 1 0 auto;
+    align-self: stretch;
 }
 .top-con div{
     font-size: 18px;
@@ -67,15 +72,6 @@ button {
 }
 .Img-holder, .Inspirational_quote {
     background-color: rgba(255, 255, 255, 0.594);
-}
-body .top-con, .awesome-website, #thunder, .sub-con, .footer, .woobli-ilustration{
-    display: flex;
-}
-.awesome-website {
-    flex-flow: column wrap;
-}
-.awesome-website button, .sub-con button {
-    max-width: 70px;
 }
 .mid-con{
     display: flex;
