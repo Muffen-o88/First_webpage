@@ -21,6 +21,12 @@ button {
 .awesome-website button, .sub-con button {
     max-width: 70px;
 }
+.hero{
+    align-content: space-around;
+    background-color: #1f2937;
+    height: 500px;
+    width:  900px;
+}
 .Temp-logo{
     font-size: 24px;
     color: #F9FAF8;
@@ -40,12 +46,6 @@ button {
 .head, .top-con {
     background-color: #1f2937;
     color:white;
-}
-.hero{
-    align-content: center;
-    background-color: #1f2937;
-    height: 500px;
-    width:  900px;
 }
 .top-con{
     justify-content: center;
@@ -75,17 +75,23 @@ button {
 }
 .mid-con{
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     align-items: center;
+}
+.a-random-information{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
 }
 .woobli-ilustration{
     flex-flow: column wrap;
+    width: 150px;
 }
 #woobli {
     border: solid 3px #3882F6;
     border-radius: 5px;
-    height: 50px;
-    width: 50px;
+    height: 150px;
+    width: 150px;
 }
 .bottom-con {
     display: flex;
@@ -104,6 +110,8 @@ button {
 .sub-con {
    flex-flow: row wrap; 
    justify-content: center;
+   background-color: #3882F6;
+   border-radius: 2px;
 }
 
 .footer {
@@ -111,5 +119,7 @@ button {
    justify-content: center;
    background-color: #1f2937;
    color: white;
-   flex: 1;
+}
+.footer div {
+    flex: 1;
 }
