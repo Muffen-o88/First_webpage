@@ -4,7 +4,6 @@
 body {
     display: flex;
     flex-flow: column wrap;
-    background-color: ;
     margin: 0px;
 }
 body .top-con, .awesome-website, #thunder, .sub-con, .footer, .woobli-ilustration{
@@ -17,6 +16,7 @@ button {
     outline:  none;
     height: 30px;
     width: 100px;
+    border-radius: 3px;
 }
 .awesome-website button, .sub-con button {
     max-width: 70px;
@@ -42,17 +42,17 @@ button {
     color:white;
 }
 .hero{
-    align-content: space-around;
-    margin: 0px;
+    align-content: center;
     background-color: #1f2937;
     height: 500px;
+    width:  900px;
 }
 .top-con{
     justify-content: center;
     align-items: center;
 }
 .awesome-website{
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     flex: 0 1 50%;
 }
 #awesome {
@@ -75,18 +75,28 @@ button {
 }
 .mid-con{
     display: flex;
-    flex-flow: column;
+    flex-flow: row wrap;
     align-items: center;
 }
+.woobli-ilustration{
+    flex-flow: column wrap;
+}
 #woobli {
-    border: solid 3px blue;
+    border: solid 3px #3882F6;
+    border-radius: 5px;
+    height: 50px;
+    width: 50px;
 }
 .bottom-con {
     display: flex;
     flex-flow:  column wrap;
 }
 .inspirational-quote {
-    max-width: ;
+     background-color: #E5E7EB;
+}
+.quote{
+    font-size: 36px;
+    font-weight: 300;
 }
 #thunder {
     justify-content: center;
