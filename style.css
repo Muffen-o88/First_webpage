@@ -75,18 +75,21 @@ button {
 }
 .mid-con{
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: wrap;
     align-items: center;
 }
 .a-random-information{
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
+    
+}
+.a_lot_of_tuff{
+   flex-flow: row wrap;
 }
 .woobli-ilustration{
-    flex-flow: column wrap;
-    width: 150px;
-}
+    
+}   
 #woobli {
     border: solid 3px #3882F6;
     border-radius: 5px;
@@ -95,14 +98,14 @@ button {
 }
 .bottom-con {
     display: flex;
-    flex-flow:  column wrap;
+    flex-flow: column wrap;
 }
 .inspirational-quote {
-     background-color: #E5E7EB;
+     background-color: #e5e7eb;
 }
 .quote{
     font-size: 36px;
-    font-weight: 300;
+    font-weight: 50;
 }
 #thunder {
     justify-content: center;
