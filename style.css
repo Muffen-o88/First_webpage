@@ -76,7 +76,7 @@ button {
 .mid-con{
     display: flex;
     flex-flow: wrap;
-    align-items: center;
+    align-items: ;
 }
 .a-random-information{
     font-size: 36px;
@@ -108,21 +108,38 @@ button {
     font-weight: 50;
 }
 #thunder {
-    justify-content: center;
+    justify-content: flex-end;
+    font-size: 18px;
+    font-weight: 700;
 }
 .sub-con {
    flex-flow: row wrap; 
    justify-content: center;
    background-color: #3882F6;
-   border-radius: 2px;
-}
-
-.footer {
+   border-radius: 4px;
+   width: 600px;
+   gap: 20px;
    align-self: center;
-   justify-content: center;
-   background-color: #1f2937;
-   color: white;
+   color: #F9FAF8;
+   padding: 10px;
+   margin: 20px;
+
 }
-.footer div {
-    flex: 1;
+.sub-con button {
+    border: #F9FAF8 2px solid;
+    border-radius: 3px;
+    align-self: center;
+}
+.sub-con div{
+    font-size: 18px;
+}
+#time{
+    font-weight: 900;
+}
+.footer {
+    align-self: center;
+    justify-content: center;
+    background-color: #1f2937;
+    color: white;
+    width: auto;
 }
