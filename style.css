@@ -6,7 +6,7 @@ body {
     flex-flow: column wrap;
     margin: 0px;
 }
-body .top-con, .awesome-website, #thunder, .sub-con, .footer, .woobli-ilustration{
+body .top-con, .awesome-website, #thunder, .sub-con, .footer{
     display: flex;
 }
 button {
@@ -75,8 +75,8 @@ button {
 }
 .mid-con{
     display: flex;
-    flex-flow: wrap;
-    align-items: ;
+    flex-flow:  column wrap;
+    align-items: center;
 }
 .a-random-information{
     font-size: 36px;
@@ -86,26 +86,27 @@ button {
 }
 .a_lot_of_tuff{
    flex-flow: row wrap;
+    align-items: center;
 }
 .woobli-ilustration{
-    
+  flex-flow: row wrap;
+  align-items: center;
 }   
 #woobli {
     border: solid 3px #3882F6;
     border-radius: 5px;
-    height: 150px;
-    width: 150px;
 }
 .bottom-con {
     display: flex;
     flex-flow: column wrap;
 }
-.inspirational-quote {
-     background-color: #e5e7eb;
+.inspirational-quote, .quote, #thunder{
+     background-color: #E5E7EB;
 }
 .quote{
     font-size: 36px;
-    font-weight: 50;
+    font-weight: 300;
+    color: #1f2937;
 }
 #thunder {
     justify-content: flex-end;
