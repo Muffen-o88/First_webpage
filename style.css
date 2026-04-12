@@ -5,6 +5,7 @@ body {
     display: flex;
     flex-flow: column wrap;
     margin: 0px;
+    gap: 20px;
 }
 body .top-con, .awesome-website, #thunder, .sub-con, .footer{
     display: flex;
@@ -22,12 +23,14 @@ button {
     max-width: 70px;
 }
 .hero{
-    align-content: space-between;
+    align-content: space-around;
     background-color: #1f2937;
     padding: 0px 100px 100px 100px;
     flex: 1;
     flex-flow: row wrap;
-    min-height: 600px
+    min-height: 600px;
+    align-items: center;
+    justify-content: space-around;
 }
 .Temp-logo{
     font-size: 24px;
@@ -98,6 +101,7 @@ button {
 .woobli-ilustration{
   flex-flow: row;
   align-items: center;
+  flex: 0 1 0%;
 }   
 #woobli {
     border: solid 3px #3882F6;
@@ -108,15 +112,18 @@ button {
     flex-flow: column wrap;
 }
 .inspirational-quote, .quote, #thunder{
-     background-color: #E5E7EB;
+    background-color: #E5E7EB;
 }
+
 .quote{
     font-size: 36px;
     font-weight: 300;
     color: #1f2937;
+    justify-content: ;
+    
 }
 #thunder {
-    justify-content: flex-end;
+    justify-content: space-around;
     font-size: 18px;
     font-weight: 700;
 }
@@ -129,8 +136,8 @@ button {
    gap: 20px;
    align-self: center;
    color: #F9FAF8;
-   padding: 10px;
-   margin: 20px;
+   padding: 20px;
+   margin: 50px;
 
 }
 .sub-con button {
