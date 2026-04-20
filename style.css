@@ -5,9 +5,9 @@ body {
     display: flex;
     flex-flow: column wrap;
     margin: 0px;
-    gap: 20px;
+    gap: 75px;
 }
-body .top-con, .awesome-website, #thunder, .sub-con, .footer{
+body .top-con, .awesome-website, #thunder, .sub-con, .footer, .Inspirational_quote, .a_lot_of_tuff, .a-random-information, .hero{
     display: flex;
 }
 button {
@@ -28,7 +28,7 @@ button {
     padding: 0px 100px 100px 100px;
     flex: 1;
     flex-flow: row wrap;
-    min-height: 600px;
+    min-height: 500px;
     align-items: center;
     justify-content: space-around;
 }
@@ -52,7 +52,7 @@ button {
 .head, .top-con {
     background-color: #1f2937;
     color:white;
-    flex: 0 1 50%;
+    flex: 1 1 auto;
 }
 .top-con{
     justify-content: center;
@@ -61,7 +61,7 @@ button {
 }
 .awesome-website{
     flex-flow: column wrap;
-    flex: 0 1 50%;
+    flex: 1 1 auto;
 }
 #awesome {
     font-size: 48px;
@@ -71,56 +71,68 @@ button {
 }
 #place-holder{
     background-color: #c0c1c3ba;
-    flex: 0 1 50%;
+    flex: 1 0 50%;
     align-self: stretch;
 }
 .top-con div{
     font-size: 18px;
     color: #E5E7EB;
 }
-.Img-holder, .Inspirational_quote {
+.Img-holder{
     background-color: rgba(255, 255, 255, 0.594);
 }
 .mid-con{
     display: flex;
-    flex-flow:  column wrap;
+    flex-flow: column wrap;
     align-items: center;
+    gap: 30px;
+    justify-items: center;
 }
 .a-random-information{
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
-    
+    align-items: center;
 }
 .a_lot_of_tuff{
    flex-flow: row wrap;
     align-items: center;
-    flex: 1 1 auto;
     width: 100%;
+    justify-content: center;
+    gap: 30px;
 }
 .woobli-ilustration{
-  flex-flow: row;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: min-content;
+  height: min-content;
   align-items: center;
-  flex: 0 1 0%;
 }   
 #woobli {
     border: solid 3px #3882F6;
     border-radius: 5px;
+    min-width: 150px;
+    min-height: 150px;
 }
 .bottom-con {
     display: flex;
     flex-flow: column wrap;
-}
-.inspirational-quote, .quote, #thunder{
+    padding: 50px;
     background-color: #E5E7EB;
 }
-
+.Inspirational_quote, .quote, #thunder{
+    background-color: #E5E7EB;
+}
+.Inspirational_quote{
+    background-color: #E5E7EB;
+    justify-content: flex-end;
+    margin: 10px;
+    flex-flow: row wrap;
+}
 .quote{
     font-size: 36px;
     font-weight: 300;
     color: #1f2937;
-    justify-content: ;
-    
 }
 #thunder {
     justify-content: space-around;
@@ -136,7 +148,7 @@ button {
    gap: 20px;
    align-self: center;
    color: #F9FAF8;
-   padding: 20px;
+   padding: 30px 50px 30px 50px;
    margin: 50px;
 
 }
